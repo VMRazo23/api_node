@@ -3,7 +3,7 @@
 class Curl
 {
     static public function api() {
-        return 'http://127.0.0.1:3000/api/';
+        return 'https://vmrazo23-symmetrical-space-xylophone-pqv9w4jg6qgfxgg-3000.preview.app.github.dev/api/';
     }
 
     static public function request($url,$method,$fields) {
@@ -20,7 +20,7 @@ class Curl
             CURLOPT_CUSTOMREQUEST => $method,
             CURLOPT_POSTFIELDS =>$fields,
             CURLOPT_HTTPHEADER => array(
-                'Content-Type: application/json'
+                'Content-Type: application/json',
             ),
         ));
         $response = curl_exec($curl);
