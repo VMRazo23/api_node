@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build" : "./node_modules/.bin/netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "mysql2": "^2.3.3",
+    "netlify-lambda": "^2.0.16",
     "save": "^2.9.0"
   },
   "devDependencies": {
