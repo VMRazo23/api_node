@@ -3,7 +3,7 @@
 class Curl
 {
     static public function api() {
-        return 'https://vmrazo23-symmetrical-space-xylophone-pqv9w4jg6qgfxgg-3000.preview.app.github.dev/api/';
+        return 'https://vmrazo23-shiny-doodle-gw96rj45rjrcwqg9-3000.preview.app.github.dev/api/';
     }
 
     static public function request($url,$method,$fields) {
