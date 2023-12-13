@@ -39,7 +39,7 @@ import {pool} from "../db.js";
             id: rows.insertId,
             name,
             salary,
-            status: 200
+            status: 200,
          })
       }catch (error){
          return res.status(500).json({
